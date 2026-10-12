@@ -31,8 +31,8 @@
 #endif
 
 // Выключение переворота картинки (фиксирует ошибку линковщика дисплея)
-#define DISPLAY_MIRROR_X false
-#define DISPLAY_MIRROR_Y false
+#define DISPLAY_MIRROR_X true
+#define DISPLAY_MIRROR_Y true
 
 // 3. НАСТРОЙКА КНОПКИ АКТИВАЦИИ – СТРОГО ПО ЗАПИСКЕ
 #define BUILTIN_LED_GPIO GPIO_NUM_NC // Светодиод не используется
